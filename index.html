@@ -4,6 +4,7 @@
 
 <head>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
     <meta charset="utf-8">
     <title>TO DO LIST</title>
 </head>
@@ -15,12 +16,16 @@
         </div>
         <div class="todo">
             <input type="text" id="input", autofocus="true" placeholder="할 일을 입력해주세요.">
-            <button type="button" id="button">+</button>
+            <button type="button" id="btnPls">+</button>
         </div>
         <div class="todolist">
             <ul id="list">
+                <hr width="400px", color="black", id="line">
             </ul>
             <button type="button" id="clear">All clear</button>
+        </div>
+        <div class="help">
+            <button type="button", id="help_btn">?</button>
         </div>
     </div>
     <script src="./script.js"></script>

@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Jua';
+  src: url('font/Jua-Regular.ttf');
+}
+
+body {
+  font-family: 'Jua';
+  text-align: center;
+  background-color: #FDEBC8;
+}
+
+.container {
+  margin-top: 150px;
+  margin-left: 500px;
+  background-color: #FFDC37;
+  width: 500px;
+  height: 500px;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+}
+
+#btnPls{
+  font-size: 22px;
+  border: 1px solid #FFDC37;
+  background-color : #FFDC37;
+}
+
+#clear {
+  border: 1px solid #FFDC37;
+  background-color : #FFDC37;
+  font-size: 20px;
+  font-weight: bold;
+  color : red;
+}
+
+.btn_del {
+  font-weight: bold;
+  border: 1px solid #FFDC37;
+  background-color : #FFDC37;
+  color : red;
+}
+
+ul {
+  list-style:none;
+}
+
+#line {
+  margin-right: 200px;
+}
+
+#help_btn {
+  width: 40px;
+  height: 40px;
+  margin-left: 450px;
+  margin-top: 200px;
+  border-radius: 50%;
+  border: 1px solid #FFDC37;
+  background-color: aqua;
+  font-size: 22px;
+  color: black;
+}
